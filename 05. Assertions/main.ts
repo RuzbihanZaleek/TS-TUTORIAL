@@ -26,7 +26,7 @@ let nextVal: number = addOrConcat(2, 2, 'concat') as number
 // The DOM 
 const img = document.querySelector('img')! //! is to say it is a "none" or "nor" assertion
 const myImg = document.getElementById('#img') as HTMLImageElement
-const nextImg = <HTMLImageElement>document.getElementById('#img') //this will not work for tsx files in React
+const nextImg = <HTMLImageElement>document.getElementById('#img')  //this will not work for tsx files in React
 
 img.src
 myImg.src
